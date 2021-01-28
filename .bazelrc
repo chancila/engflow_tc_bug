@@ -1,0 +1,8 @@
+
+build --remote_download_toplevel
+
+build --remote_executor=grpcs://citrine.cluster.engflow.com:8080
+build --spawn_strategy=remote
+build --incompatible_strict_action_env
+
+build --incompatible_enable_cc_toolchain_resolution

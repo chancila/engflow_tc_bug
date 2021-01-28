@@ -1,0 +1,2 @@
+cc_library(name = "test", srcs = ["main.cpp"],
+hdrs = ["foo.h"])
